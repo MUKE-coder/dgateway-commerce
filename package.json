@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@nexora-ai/react": "^0.1.0",
+    "@nexora-ai/react": "^0.1.1",
     "@stripe/react-stripe-js": "^5.6.0",
     "@stripe/stripe-js": "^8.8.0",
     "class-variance-authority": "^0.7.1",
