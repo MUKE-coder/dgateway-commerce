@@ -345,8 +345,8 @@ function Cart() {
   );
 }
 
-// Main PesaPalCart Component
-export default function PesaPalCart() {
+// Main EcommerceCart Component
+export default function EcommerceCart() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="mb-8 text-center text-3xl font-bold">Featured Products</h2>

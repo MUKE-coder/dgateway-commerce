@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@nexora-ai/react':
+        specifier: ^0.1.0
+        version: 0.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@stripe/react-stripe-js':
         specifier: ^5.6.0
         version: 5.6.0(@stripe/stripe-js@8.8.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -510,6 +513,12 @@ packages:
 
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
+
+  '@nexora-ai/react@0.1.0':
+    resolution: {integrity: sha512-xMrpNwciTHBp6LqzOChrXPCqWvOSOPkOtIwkxJS4GrZFWaud4JtjQb4ek2xdtrefUsoFw4O+Z2jdccJrZNbu0A==}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
 
   '@next/env@16.1.6':
     resolution: {integrity: sha512-N1ySLuZjnAtN3kFnwhAwPvZah8RJxKasD7x1f8shFqhncnWZn4JMfg37diLNuoHsLAlrDfM3g4mawVdtAG8XLQ==}
@@ -4227,6 +4236,11 @@ snapshots:
       '@emnapi/runtime': 1.8.1
       '@tybys/wasm-util': 0.10.1
     optional: true
+
+  '@nexora-ai/react@0.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+    dependencies:
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
 
   '@next/env@16.1.6': {}
 
